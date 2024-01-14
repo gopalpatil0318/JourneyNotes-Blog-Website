@@ -1,0 +1,184 @@
+.content{
+    margin-bottom: 50px;
+}
+p{
+    font-size: 1.5rem; 
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1{
+    font-size: 3rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+    background-color: #000000;
+    border-bottom: 2px solid grey;
+}
+.navbar-nav  li a:hover {
+    color: #1abc9c !important;
+}
+
+.home_container{
+  background-color: #000000;
+  height: 70vh;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  padding-top: 150px;
+}
+
+.home_container h1{
+  margin: 0;
+  padding: 0;
+  font-size: 50px;
+}
+
+.home_container p{
+  width: 80%;
+  margin: auto;
+  color: gray;
+  padding-top: 20px;
+}
+
+/* .blog_container{
+  
+} */
+.blog_card{
+  background-color: #f2f2f2;
+  padding: 50px;
+  width: 300px;
+  display: inline-block;
+  margin: 10px;
+  
+}
+
+.footer-padding {
+	padding-bottom: 60px;
+}
+
+.footer {
+	position: fixed;
+	text-align: center;
+	bottom: 0;
+	width: 100%;
+	height: 60px;
+	background-color: #1abc9c;
+}
+
+.footer p {
+	margin-top: 25px;
+	font-size: 12px;
+    color: #fff;
+}
+
+.btn-compose {
+    background-color: #1abc9c;
+    position: fixed;
+    bottom: 50px;
+    right: 115px;
+    z-index: 9999; /* Set a high z-index value to keep the button above other elements */
+    margin-bottom: 50px;
+    border: #fff;
+    border-radius: 20px;
+  }
+
+.btn-compose:hover {
+    background-color: #138a72;
+}  
+
+.publish-btn {
+    margin-top: 20px;
+    background-color: #1abc9c;
+    border: #fff;
+    border-radius: 20px;
+}
+
+.publish-btn:hover {
+    background-color: #138a72;
+}
+
+.compose {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    color: #1abc9c;
+}
+
+.contact-info {
+    margin-bottom: 30px;
+  }
+
+  .contact-info h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .contact-info p {
+    margin-bottom: 5px;
+  }
+
+
+
+
+  
+
+/* Match UI color to home page */
+.form-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 600px;
+    
+    background-color: #f9f9f9; /* Set your desired background color */
+    padding: 20px;
+    margin-top: 50px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    text-align: center;
+  }
+  
+  .login-form label {
+    font-size: 18px;
+  }
+  
+  .small-input .form-control {
+    width: 100%;
+    max-width: 100%;
+    font-size: 5;
+    background-color: #fff; /* White background for input boxes */
+    border: 1px solid #ccc; /* Gray border for input boxes */
+  }
+
+  .login-form .btn-lg .btn-reg {
+    font-size: 20px;
+    background-color: #1abc9c; /* Match the color of the home page's buttons */
+    border: none;
+  }
+  .btn-lg {
+    background-color: #1abc9c;
+    margin-right: 100px;
+  
+  }
+  
+  .btn-google {
+    background-color: #4285F4; /* Google's color */
+    color: #fff; /* Text color */
+    margin-top: 20px;
+    width: 100%;
+  }
+
+
+  

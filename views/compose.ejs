@@ -1,0 +1,29 @@
+
+
+<%- include('partials/header') -%>
+<%- include('partials/navbar') -%>
+<div class="about_container">
+    <div class="container">
+      <h1>Compose</h1>
+
+<form action="/compose" method="post" enctype="multipart/form-data">
+    <div class="form-group">
+        <label for="postTitle" style="font-size: 20px;">Title</label>
+        <input class="form-control" type="text" name="postTitle" id="postTitle" placeholder="Write captivating blog title blog here..." required> 
+    </div>
+    <div class="form-group">
+        <label for="postBody" style="font-size: 20px;">Post</label>
+        <textarea class="form-control" name="postBody" id="postBody" rows="5" placeholder="Share your thoughts, experiences, and insights in this space..." required></textarea>
+    </div>
+
+    <div class="form-group">
+        <label for="image" style="font-size: 20px;">Image</label>
+        <input type="file" class="form-control-file" name="image" id="image">
+    </div>
+    
+    <button type="submit" class="btn btn-primary publish-btn btn-lg">Publish</button>
+</form>
+</div>
+</div>
+
+<%- include('partials/footer') -%>
